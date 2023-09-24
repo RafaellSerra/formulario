@@ -1,0 +1,24 @@
+.container {
+    display: flex; /* Make the container a flex container */
+    justify-content: space-between; /* Distribute space between columns */
+  }
+  
+  .column {
+    flex: 1; /* Allow columns to grow and take equal space */
+    padding: 10px; /* Add some padding for spacing */
+    border: 0px solid #ccc; /* Optional: Add a border for separation */
+    font-size: 13px;
+  }
+
+  .placeholder{
+    font-size: 10px;;
+  }
+
+  input::placeholder {
+    font-size: 12px;
+  }
+
+  button{
+    margin-top: 10px;
+    width: 100%;
+  }
